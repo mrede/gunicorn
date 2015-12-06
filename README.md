@@ -15,7 +15,7 @@ Requirements
 - Chef 11+
 
 #### Cookbooks
-- python
+- poise-python
 
 Attributes
 ----------
