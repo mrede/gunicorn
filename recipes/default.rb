@@ -21,6 +21,6 @@
 include_recipe 'poise-python'
 
 gunicorn_install 'gunicorn' do
-  puts "Installing #{node['gunicorn']['virtualenv']}"
-  virtualenv node['gunicorn']['virtualenv']
+  #puts "Installing #{node['gunicorn']['virtualenv']}"
+  #virtualenv node['gunicorn']['virtualenv']
 end
