@@ -18,9 +18,8 @@
 # limitations under the License.
 #
 
-include_recipe 'poise-python'
+include_recipe 'python'
 
 gunicorn_install 'gunicorn' do
-  #puts "Installing #{node['gunicorn']['virtualenv']}"
-  #virtualenv node['gunicorn']['virtualenv']
+  virtualenv node['gunicorn']['virtualenv']
 end
